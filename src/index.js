@@ -39,7 +39,7 @@ function addMarkup(markup){
 // функция обрезки текста описания
 function truncateText(text) {
 
-    const maxLength = 60;
+    const maxLength = 75;
 
     if (text.length > maxLength) {
       return text.substring(0, maxLength) + '...';
