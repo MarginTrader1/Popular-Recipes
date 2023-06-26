@@ -2,14 +2,14 @@
   "name": "Popular-Recipese",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://MarginTrader1.github.io/Popular-Recipese",
+  "homepage": "https://MarginTrader1.github.io/Popular-Recipes",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Popular-Recipese/"
+    "build": "parcel build src/*.html --public-url /Popular-Recipes/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MarginTrader1/Popular-Recipese.git"
+    "url": "git+https://github.com/MarginTrader1/Popular-Recipes.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
