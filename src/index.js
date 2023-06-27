@@ -18,13 +18,13 @@ function createMarkup(recipes){
     const markup = recipes
     .map((recipe) => {
       return `
-      <div class="recipe-card">
+      <li class="recipe-card">
         <img class="recipe-image" src="${recipe.preview}" alt="${recipe.title}" loading="lazy" />
         <div class="recipe-info">
             <h3 class="recipe-title">${truncateTitle(recipe.title)}</h3>
             <p class="recipe-description">${truncateText(recipe.description)}</p>
         </div>
-      </div>
+      </li>
       `;
     })
     .join("");
