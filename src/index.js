@@ -4,7 +4,7 @@ import  { fetchPopularRecipes } from './API.js';
 const loadBtn = document.querySelector('.load-more');
 const recipesList = document.querySelector('.popular-recipes-list');
 
-loadBtn.addEventListener('click', onClick)
+document.addEventListener("DOMContentLoaded", onClick)
 
 function onClick (e) {
     fetchPopularRecipes()
@@ -31,12 +31,12 @@ function createMarkup(recipes){
     return markup
 }
 
-// функция вставить фото
+// функция вставить разметку
 function addMarkup(markup){
     recipesList.innerHTML = markup; 
 }
 
-// функция обрезки текста описания
+// функция обрезки описания
 function truncateText(text) {
 
     const maxLength = 75;
@@ -47,7 +47,7 @@ function truncateText(text) {
     return text;
   }
 
-  // функция обрезки текста названия
+  // функция обрезки названия
 function truncateTitle(text) {
 
     const maxLength = 10;
